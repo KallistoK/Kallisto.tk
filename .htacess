@@ -4,3 +4,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)\.html$ /$1 [L,R=301]
 
 ErrorDocument 404 /404.html
+
+Options +FollowSymLinks
+ RewriteEngine On
+ RewriteRule ^/.*$ http://mydomain.com/main/ [R=301,L]

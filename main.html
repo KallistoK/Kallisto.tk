@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Kallisto</title>
+    <link rel="icon" href="/media/tabicon.png">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" media="screen">
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="topbutton" title="Go to top">&#8593;</button>
+
+    <div class="header">
+        <div style="height: auto;"><img src="./media/icon.ico"><a style="text-decoration: none; margin-left: 5px;;">allisto</a></div>
+        <div>
+            <div class="options-grid">
+                    <div class="options"><a class="hyperlinks" href="#about">About Me</a></div>
+                    <div class="options"><a class="hyperlinks" href="#work">My Work</a></div>
+                    <div class="options"><a class="hyperlinks" href="mailto:koentfortin@gmail.com">Contact</a></div>
+                    <div class="options"><a class="hyperlinks" href="#socials">Socials</a></div>
+            </div>
+            <hr id="hr">
+        </div>
+    </div>
+
+    <img id="mobile" class="image" src="/media/header.png" alt="Kallisto Header">
+    
+    <div class="categorys">
+
+        <div id="about">
+            <p class="about-text">Hey! I am Kallisto, I do Motion Design and I love doing it. I also enjoy working with others and hearing ideas. My favorite part about Motion Design is turning an idea into reality with After Effects and Premiere Pro.<br>
+                If you need an ad for a Project or Product, contact me and we will make your brand glow.</p>
+        </div>
+
+        <div id="work">
+            <p class="work-text"></p>
+            <div class="work">
+
+                <a class="hyperlinks" href="https://www.youtube.com/watch?v=44f6SFQeaxM" target="_blank">
+                    <div class="work-section">
+                        <img src="/media/thumbnails/rebrand.png">
+                        <p>Make your brand glow.<br>
+                            -Kallisto Rebrand</p>
+                    </div>
+                </a>
+
+                <a class="hyperlinks" href="https://www.youtube.com/watch?v=44f6SFQeaxM" target="_blank">
+                    <div class="work-section">
+                        <img src="/media/thumbnails/Umbrella.png">
+                        <p>Umbrella<br>
+                            -Kallisto</p>
+                    </div>
+                </a>
+
+                <a class="hyperlinks" href="https://www.youtube.com/watch?v=44f6SFQeaxM" target="_blank">
+                    <div class="work-section">
+                        <img src="/media/thumbnails/S10.png">
+                        <p>S10+ Introduction<br>
+                            -Kallisto</p>
+                    </div>
+                </a>
+                
+                <a class="hyperlinks" href="https://www.youtube.com/watch?v=44f6SFQeaxM" target="_blank">
+                    <div class="work-section">
+                        <img src="/media/thumbnails/Hydisc.png">
+                        <p>HyDisc<br>
+                            -Kallisto</p>
+                    </div>
+                </a>
+                <div>
+                </div>
+            </div>
+        </div>
+
+        <div id="socials">
+            <p class="socials-text">
+
+            </p>
+        </div>
+    </div>
+
+
+    <script>
+        let mybutton = document.getElementById("topbutton");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+
+</html>
+
+<!-- Website Coded And Designed by: Ethan https://github.com/etahn-git -->

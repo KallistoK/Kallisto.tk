@@ -128,9 +128,10 @@ html {
 
 
 
-
 #socials {
     color: #F7F7F7;
+    margin-left:auto;
+    margin-right:auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

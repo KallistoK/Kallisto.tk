@@ -144,7 +144,15 @@ html {
     font-family: 'Orbitron', sans-serif;
 }
 
+.socials-image {
+  width:700px;
+}
 
+@media (max-width: 642px) { 
+  .socials-image {
+      width:300px;
+  }
+}
 
 
 
